@@ -1,0 +1,312 @@
+{
+	"info": {
+		"_postman_id": "565a161d-70ac-41d2-b71f-d4ccddbb0eeb",
+		"name": "testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. openidc",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "2. request token",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "2. request token Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "xpo-tran-boomi-test-app",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "neULx0fBja9XFIcGodiXDtM4lhc1lBtGUY1JKeTWaFNVbkVVgQlmIRSeBGDeyug6",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "xpo-rates-api",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login-sandbox.authxpo.com/connect/token",
+					"protocol": "https",
+					"host": [
+						"login-sandbox",
+						"authxpo",
+						"com"
+					],
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. request token Copy 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "xpo-tran-boomi-test-app",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "neULx0fBja9XFIcGodiXDtM4lhc1lBtGUY1JKeTWaFNVbkVVgQlmIRSeBGDeyug6",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "xpo-rates-api",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://login-sandbox.authxpo.com/connect/token",
+					"protocol": "https",
+					"host": [
+						"login-sandbox",
+						"authxpo",
+						"com"
+					],
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. openidc jwks",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "4. xpo apis entries name scope",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "xpo-authorization",
+						"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkU1OEQ3N0M3MEE2MkRCMUQwMDYwODRCNUNCREI0QkVBMUJGRjhGM0YiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI1WTEzeHdwaTJ4MEFZSVMxeTl0TDZodl9qejgifQ.eyJuYmYiOjE2NDQ0MjQ0OTgsImV4cCI6MTY0NDQzMTY5OCwiaXNzIjoiaHR0cHM6Ly9sb2dpbi1zYW5kYm94LmF1dGh4cG8uY29tIiwiYXVkIjpbImh0dHBzOi8vbG9naW4tc2FuZGJveC5hdXRoeHBvLmNvbS9yZXNvdXJjZXMiLCJ4cG8tdHJhbi1nb29nbGUtYXBpIl0sImNsaWVudF9pZCI6Inhwby10cmFuc3BvcnQtZ29vZ2xlLXByb2R1Y3RzIiwic3ViIjoia2VkYXIuZ29ka2hpbmRpQHhwby5jb206b2lkYy1henVyZSIsImF1dGhfdGltZSI6MTY0NDQyNDQ5NywiaWRwIjoib2lkYy1henVyZSIsInVwbiI6ImtlZGFyLmdvZGtoaW5kaUB4cG8uY29tIiwiZXh0ZXJuYWxfaWRlbnRpZmllciI6ImE4VllkcTFFXzdtMDR3X2pETXZqV21xMFdYNFZMNWVxajZvSFRpdFBtQVkiLCJuYW1lIjoiS2VkYXIgR29ka2hpbmRpIiwic2NvcGUiOlsib3BlbmlkIiwibmFtZSIsInhwby10cmFuLWdvb2dsZS1hcGkiXSwiYW1yIjpbImV4dGVybmFsIl19.sOL-QkzgUtlr1LEuaunoRLEfA7bw2kxwUfxmKFdb4t-gHoXHY473NSr5icI80646mOhaPhq63n6FibvkeQl-Z4lPBaz0Ynh4YkwC2kJq6i-4vk2c3muSc8G12AdMvEevvcGCQEQdFUxDxoNXBbIWlx0o1uYvBoGp_7d6bSbJ9vXoVGMz2uSNErJmNJU87oZV2bGnzn7_FfZOeyu8RCOl8S8hZufL_5208-aW7l-qbCEop60FvHopfj9-iqRexl4Pw_vyJynDNpZL0YhAPUEJyKmMbwufVTVYhg7BbmgwjoGBB4nu2sRQVk3kav_3JOYYyFUky6vwBnPfIcf94purgQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://34.120.141.153.nip.io/kg-xpo-apis/entries",
+					"protocol": "https",
+					"host": [
+						"34",
+						"120",
+						"141",
+						"153",
+						"nip",
+						"io"
+					],
+					"path": [
+						"kg-xpo-apis",
+						"entries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. xpo apis categories api scope",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "xpo-authorization",
+						"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkU1OEQ3N0M3MEE2MkRCMUQwMDYwODRCNUNCREI0QkVBMUJGRjhGM0YiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI1WTEzeHdwaTJ4MEFZSVMxeTl0TDZodl9qejgifQ.eyJuYmYiOjE2NDQ0MjQ0OTgsImV4cCI6MTY0NDQzMTY5OCwiaXNzIjoiaHR0cHM6Ly9sb2dpbi1zYW5kYm94LmF1dGh4cG8uY29tIiwiYXVkIjpbImh0dHBzOi8vbG9naW4tc2FuZGJveC5hdXRoeHBvLmNvbS9yZXNvdXJjZXMiLCJ4cG8tdHJhbi1nb29nbGUtYXBpIl0sImNsaWVudF9pZCI6Inhwby10cmFuc3BvcnQtZ29vZ2xlLXByb2R1Y3RzIiwic3ViIjoia2VkYXIuZ29ka2hpbmRpQHhwby5jb206b2lkYy1henVyZSIsImF1dGhfdGltZSI6MTY0NDQyNDQ5NywiaWRwIjoib2lkYy1henVyZSIsInVwbiI6ImtlZGFyLmdvZGtoaW5kaUB4cG8uY29tIiwiZXh0ZXJuYWxfaWRlbnRpZmllciI6ImE4VllkcTFFXzdtMDR3X2pETXZqV21xMFdYNFZMNWVxajZvSFRpdFBtQVkiLCJuYW1lIjoiS2VkYXIgR29ka2hpbmRpIiwic2NvcGUiOlsib3BlbmlkIiwibmFtZSIsInhwby10cmFuLWdvb2dsZS1hcGkiXSwiYW1yIjpbImV4dGVybmFsIl19.sOL-QkzgUtlr1LEuaunoRLEfA7bw2kxwUfxmKFdb4t-gHoXHY473NSr5icI80646mOhaPhq63n6FibvkeQl-Z4lPBaz0Ynh4YkwC2kJq6i-4vk2c3muSc8G12AdMvEevvcGCQEQdFUxDxoNXBbIWlx0o1uYvBoGp_7d6bSbJ9vXoVGMz2uSNErJmNJU87oZV2bGnzn7_FfZOeyu8RCOl8S8hZufL_5208-aW7l-qbCEop60FvHopfj9-iqRexl4Pw_vyJynDNpZL0YhAPUEJyKmMbwufVTVYhg7BbmgwjoGBB4nu2sRQVk3kav_3JOYYyFUky6vwBnPfIcf94purgQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://34.120.141.153.nip.io/kg-xpo-apis/categories",
+					"protocol": "https",
+					"host": [
+						"34",
+						"120",
+						"141",
+						"153",
+						"nip",
+						"io"
+					],
+					"path": [
+						"kg-xpo-apis",
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. xpo apis random no scope",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "xpo-authorization",
+						"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkU1OEQ3N0M3MEE2MkRCMUQwMDYwODRCNUNCREI0QkVBMUJGRjhGM0YiLCJ0eXAiOiJKV1QiLCJ4NXQiOiI1WTEzeHdwaTJ4MEFZSVMxeTl0TDZodl9qejgifQ.eyJuYmYiOjE2NDQ0MjQ0OTgsImV4cCI6MTY0NDQzMTY5OCwiaXNzIjoiaHR0cHM6Ly9sb2dpbi1zYW5kYm94LmF1dGh4cG8uY29tIiwiYXVkIjpbImh0dHBzOi8vbG9naW4tc2FuZGJveC5hdXRoeHBvLmNvbS9yZXNvdXJjZXMiLCJ4cG8tdHJhbi1nb29nbGUtYXBpIl0sImNsaWVudF9pZCI6Inhwby10cmFuc3BvcnQtZ29vZ2xlLXByb2R1Y3RzIiwic3ViIjoia2VkYXIuZ29ka2hpbmRpQHhwby5jb206b2lkYy1henVyZSIsImF1dGhfdGltZSI6MTY0NDQyNDQ5NywiaWRwIjoib2lkYy1henVyZSIsInVwbiI6ImtlZGFyLmdvZGtoaW5kaUB4cG8uY29tIiwiZXh0ZXJuYWxfaWRlbnRpZmllciI6ImE4VllkcTFFXzdtMDR3X2pETXZqV21xMFdYNFZMNWVxajZvSFRpdFBtQVkiLCJuYW1lIjoiS2VkYXIgR29ka2hpbmRpIiwic2NvcGUiOlsib3BlbmlkIiwibmFtZSIsInhwby10cmFuLWdvb2dsZS1hcGkiXSwiYW1yIjpbImV4dGVybmFsIl19.sOL-QkzgUtlr1LEuaunoRLEfA7bw2kxwUfxmKFdb4t-gHoXHY473NSr5icI80646mOhaPhq63n6FibvkeQl-Z4lPBaz0Ynh4YkwC2kJq6i-4vk2c3muSc8G12AdMvEevvcGCQEQdFUxDxoNXBbIWlx0o1uYvBoGp_7d6bSbJ9vXoVGMz2uSNErJmNJU87oZV2bGnzn7_FfZOeyu8RCOl8S8hZufL_5208-aW7l-qbCEop60FvHopfj9-iqRexl4Pw_vyJynDNpZL0YhAPUEJyKmMbwufVTVYhg7BbmgwjoGBB4nu2sRQVk3kav_3JOYYyFUky6vwBnPfIcf94purgQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "https://34.120.141.153.nip.io/kg-xpo-apis/random",
+					"protocol": "https",
+					"host": [
+						"34",
+						"120",
+						"141",
+						"153",
+						"nip",
+						"io"
+					],
+					"path": [
+						"kg-xpo-apis",
+						"random"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. kg-oauth",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "6. entries with correct scope",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qU89ZXqptHX8DttNsse6CmpVmeUC",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://34.120.141.153.nip.io/kg-oauth-xpoapi/entries",
+					"protocol": "https",
+					"host": [
+						"34",
+						"120",
+						"141",
+						"153",
+						"nip",
+						"io"
+					],
+					"path": [
+						"kg-oauth-xpoapi",
+						"entries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. entries with incorrect scope",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qU89ZXqptHX8DttNsse6CmpVmeUC",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://34.120.141.153.nip.io/kg-oauth-xpoapi/entries",
+					"protocol": "https",
+					"host": [
+						"34",
+						"120",
+						"141",
+						"153",
+						"nip",
+						"io"
+					],
+					"path": [
+						"kg-oauth-xpoapi",
+						"entries"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
