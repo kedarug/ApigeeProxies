@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RaiseFault continueOnError="false" enabled="true" name="RF-InsufficientScope">
+    <DisplayName>RF-InsufficientScope</DisplayName>
+    <Properties/>
+    <FaultResponse>
+        <Set>
+            <Headers/>
+            <Payload contentType="text/plain">
+{ "error" : { "errorCode" : 401, "errorMessage" : "Unauthorized : Scope doesnot exist" } }               
+            </Payload>
+            <StatusCode>401</StatusCode>
+            <ReasonPhrase>Scope doesnot exist</ReasonPhrase>
+        </Set>
+    </FaultResponse>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</RaiseFault>

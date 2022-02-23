@@ -1,0 +1,20 @@
+<APIProxy revision="30" name="kg-xpo-apis">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1644869445000</CreatedAt>
+    <LastModifiedAt>1644869487764</LastModifiedAt>
+    <BasePaths>/kg-xpo-apis</BasePaths>
+    <Policies>
+        <Policy>ev-ExtractjwtToken</Policy>
+        <Policy>dj-DecodeJWT</Policy>
+        <Policy>VJ-VerifyAuthXPOTokenEntries</Policy>
+        <Policy>RF-InsufficientScope</Policy>
+        <Policy>vj-VerifyAuthXPONameScope</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

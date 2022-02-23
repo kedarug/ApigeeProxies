@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<OAuthV2 continueOnError="false" enabled="true" name="oa-VerifyTokenScopeAPI">
+    <DisplayName>oa-VerifyTokenScopeAPI</DisplayName>
+    <ExternalAuthorization>false</ExternalAuthorization>
+    <Operation>VerifyAccessToken</Operation>
+    <Scope>xpo-tran-google-api</Scope>
+    <GenerateResponse enabled="true"/>
+</OAuthV2>

@@ -1,0 +1,16 @@
+<APIProxy revision="3" name="kg-oauth-product">
+    <DisplayName></DisplayName>
+    <Description></Description>
+    <CreatedAt>1645570492518</CreatedAt>
+    <LastModifiedAt>1645570492518</LastModifiedAt>
+    <BasePaths>/kg-oauth-xpoapi</BasePaths>
+    <Policies>
+        <Policy>oa-VerifyTokenScopeAPI</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

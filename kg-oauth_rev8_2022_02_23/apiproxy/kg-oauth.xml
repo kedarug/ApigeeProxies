@@ -1,0 +1,17 @@
+<APIProxy revision="8" name="kg-oauth">
+    <DisplayName>oauth</DisplayName>
+    <Description>An API proxy that enforces OAuth 2.0 Client Credential Grant flow</Description>
+    <CreatedAt>1645568232173</CreatedAt>
+    <LastModifiedAt>1645568232173</LastModifiedAt>
+    <BasePaths>/kg-oauth/client_credential</BasePaths>
+    <Policies>
+        <Policy>GenerateAccessTokenClient</Policy>
+        <Policy>RefreshAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
