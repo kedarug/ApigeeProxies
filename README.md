@@ -1,6 +1,6 @@
 # ApigeeProxies
 
-Demo 1 - kg-xpo-api proxy.
+**Demo 1 - kg-xpo-api proxy.**
 
 Using XPO Auth for Authorization & Authentication. 
 
@@ -21,6 +21,7 @@ If not matching, then show unauthorised error.
 
 Note that this supports only application level scope.These scopes are maintained in the apigee layer. 
 User level authorization is not covered with this. 
+
 **Demo 2 - proxies - kg-oauth & kg-oauth-product.**
 oauth with scopes. 
 
