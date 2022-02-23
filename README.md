@@ -43,5 +43,5 @@ Next steps
 6) communication of services through gRPC. 
 7) Integration with git for better traceability 
 
-postman collection : 
+postman collection json : https://github.com/kedarug/ApigeeProxies/blob/master/testing.postman_collection.json
 
